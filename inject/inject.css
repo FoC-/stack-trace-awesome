@@ -1,0 +1,31 @@
+.sta__container {
+  background-color: #333;
+  color: #a3a3a3;
+  padding: 9.5px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border-radius: 3px;
+}
+
+.sta__container .sta__type {
+  color: #0d8a77;
+}
+
+.sta__container .sta__identifier {
+  color: #fff;
+}
+
+.sta__container .sta__method {
+  color: #6cc9b9;
+}
+
+.sta__container .sta__file {
+  color: #f7ab60;
+}
+
+.sta__container .sta__line {
+  color: #e94c64;
+}

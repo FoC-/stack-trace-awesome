@@ -1,0 +1,21 @@
+{
+  "name": "stack-trace-awesome",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Nice and readable stack traces",
+  "icons": {
+    "512": "icons/icon512.png"
+  },
+  "permissions": ["contextMenus", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["inject/inject.css"],
+      "js": ["inject/inject.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
